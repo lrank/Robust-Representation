@@ -16,7 +16,7 @@ We evaluate on Pang and Lee's movie review dataset (MR).
 
 More data in the paper can be found at [HarvardNLP](https://github.com/harvardnlp/sent-conv-torch/tree/master/data).
 
-And you might need a pre-trained word embeddings(https://code.google.com/archive/p/word2vec/).
+And you might need a pre-trained word embeddings (https://code.google.com/archive/p/word2vec/).
 
 Please refer the original paper for details.
 
