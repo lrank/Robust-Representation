@@ -8,10 +8,10 @@ Learning Robust Representation of Text. Li, Yitong, Trevor Cohn and Timothy Bald
 
 The code implements high-order derivative as regularization to learning robust model aganist noise based on Convolutional Neural Network (CNN) model.
 
-*CNN implementations
+###CNN implementations
 The CNN-model is following [Convolutional Neural Networks for Sentence Classification](http://arxiv.org/abs/1408.5882) and [Denny Britz](http://www.wildml.com)'s implementation(https://github.com/dennybritz/cnn-text-classification-tf) in tensorflow.
 
-*Data
+###Data
 We evaluate on Pang and Lee's movie review dataset (MR).
 
 More data in the paper can be found at [HarvardNLP](https://github.com/harvardnlp/sent-conv-torch/tree/master/data).
