@@ -50,11 +50,11 @@ parameters:
 For exmaple, training using robust regularization only (with 0.1 noise level):
 
 ```bash
-python train.py --rb_lambda 1e-2  --dropout_keep_prob 1
+python train.py --alpha 0.1 --rb_lambda 1e-2  --dropout_keep_prob 1
 ```
 
 training models with dropout only (with 0.1 noise level):
 
 ```bash
-python train.py --dropout_keep_prob 0.5 --rb_lambda 0
+python train.py --alpha 0.1 --dropout_keep_prob 0.5 --rb_lambda 0
 ```
