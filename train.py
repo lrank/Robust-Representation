@@ -21,7 +21,7 @@ tf.flags.DEFINE_integer("num_filters", 128, "Number of filters per filter size (
 tf.flags.DEFINE_float("dropout_keep_prob", 0.5, "Dropout keep probability (default: 0.5)")
 tf.flags.DEFINE_float("l2_reg_lambda", 0.0, "L2 regularizaion lambda (default: 0.0)")
 tf.flags.DEFINE_float("rb_lambda", 1e-2, "Robust Regularizaion lambda (default: 1e-2)")
-tf.flags.DEFINE_float("alpha", 0.1, "Data noise level alpha(default: 0.1)")
+tf.flags.DEFINE_float("alpha", 0.1, "Data noise level alpha (default: 0.1)")
 
 # Training parameters
 tf.flags.DEFINE_integer("batch_size", 64, "Batch Size (default: 64)")

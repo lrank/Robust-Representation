@@ -29,10 +29,32 @@ Please refer the original paper for details.
 ##Running the model
 
 Running the model using following commnad:
->> python train.py []
 
-For exmaple, training using robust regularization only:
->> python train.py --rb_lambda 1e-2  --dropout_keep_prob 1
+```bash
+python train.py [--parameters]
+```
 
-training models with dropout only:
->> python train.py --dropout_keep_prob 0.5 --rb_lambda 0
+```
+parameters:
+	--dropout_keep_prob 0.5
+		Dropout keep probability (default: 0.5)
+	--rb_lambda 1e-2
+		Robust Regularizaion lambda (default: 1e-2)")
+	--alpha 0.1
+		Data noise level alpha (default: 0.1)
+
+```
+
+
+
+For exmaple, training using robust regularization only (with 0.1 noise level):
+
+```bash
+python train.py --rb_lambda 1e-2  --dropout_keep_prob 1
+```
+
+training models with dropout only (with 0.1 noise level):
+
+```bash
+python train.py --dropout_keep_prob 0.5 --rb_lambda 0
+```
