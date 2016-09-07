@@ -47,14 +47,22 @@ parameters:
 
 
 
-For exmaple, training using robust regularization only (with 0.1 noise level):
+For exmaple, training using robust regularization only (with 0.3 noise level):
 
 ```bash
 python train.py --alpha 0.3 --rb_lambda 1e-2  --dropout_keep_prob 1
+
+CV score: 0.764398878813
+
 ```
 
-training models with dropout only (with 0.1 noise level):
+training models with dropout only (with 0.3 noise level):
 
 ```bash
 python train.py --alpha 0.3 --dropout_keep_prob 0.5 --rb_lambda 0
+
+CV score: 0.754831451178
+
 ```
+
+Models can be found under '''runs\''' fold.
