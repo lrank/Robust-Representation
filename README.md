@@ -31,7 +31,7 @@ Please refer the original paper for details.
 Running the model using following commnad:
 
 ```bash
-python train.py [--parameters]
+python train.py [parameters]
 ```
 
 ```
@@ -39,7 +39,7 @@ parameters:
 	--dropout_keep_prob 0.5
 		Dropout keep probability (default: 0.5)
 	--rb_lambda 1e-2
-		Robust Regularizaion lambda (default: 1e-2)")
+		Robust Regularizaion lambda (default: 1e-2)
 	--alpha 0.1
 		Data noise level alpha (default: 0.1)
 
@@ -50,7 +50,7 @@ parameters:
 For exmaple, training using robust regularization only (with 0.3 noise level):
 
 ```bash
-python train.py --alpha 0.3 --rb_lambda 1e-2  --dropout_keep_prob 1
+>python train.py --alpha 0.3 --rb_lambda 1e-2  --dropout_keep_prob 1
 
 CV score: 0.764398878813
 
@@ -59,10 +59,10 @@ CV score: 0.764398878813
 training models with dropout only (with 0.3 noise level):
 
 ```bash
-python train.py --alpha 0.3 --dropout_keep_prob 0.5 --rb_lambda 0
+>python train.py --alpha 0.3 --dropout_keep_prob 0.5 --rb_lambda 0
 
 CV score: 0.754831451178
 
 ```
 
-Models can be found under '''runs\''' fold.
+Models can be found under 'runs' fold.
