@@ -31,7 +31,7 @@ Please refer the original paper for details.
 Running the model using following commnad:
 
 ```bash
-python train.py [parameters]
+>python train.py [parameters]
 ```
 
 ```
